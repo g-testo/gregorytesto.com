@@ -1,5 +1,23 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+html,
+body {
+    height: 100%;
+}
+html{
+  background-color: lightgrey;
+}
+body{
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 10px;
+    background-color: white;
+}
 .githubContainer{
   border-style: solid;
+  margin: 30px;
   padding: 100px;
   float: right;
 }
