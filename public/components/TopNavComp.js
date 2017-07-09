@@ -9,9 +9,9 @@ export const TopNavComp = () => (
         <li>
           <div>
             <a href="#">
-              <h2>About Me</h2>
+              <h2>gregorytesto.com</h2>
               <p>My name is Gregory Testo and I would like to thank you for visiting.</p>
-              <Link to="/"> Website Link </Link>
+              <Link to="/">Home</Link>
             </a>
           </div>
         </li>
@@ -29,7 +29,7 @@ export const TopNavComp = () => (
           <div>
             <a href="#">
               <h2>Testo Photography</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+              <p>This is my personal photography website. I hope you enjoy your visit.</p>
               <Link to="/testophotography"> Testo Photography </Link>
               <a href="http://www.testophotography.com"> Website Link </a>
             </a>
@@ -59,7 +59,7 @@ export const TopNavComp = () => (
           <div>
             <a href="#">
               <h2>Quick Starter</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+              <p>This is my crowdfunding page for my canvas prints, photo book and my EMICS project.</p>
               <Link to="/quickstarterpage"> Quick Starter </Link>
             </a>
           </div>

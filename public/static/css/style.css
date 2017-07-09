@@ -4,16 +4,17 @@
 }
 html,
 body {
-    height: 100%;
+  height: 100%;
 }
 html{
   background-color: lightgrey;
 }
 body{
-    max-width: 1080px;
-    margin: 0 auto;
-    padding: 0 10px;
-    background-color: white;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 10px;
+  background-color: white;
+  border-radius: 5px;
 }
 .githubContainer{
   border-style: solid;
