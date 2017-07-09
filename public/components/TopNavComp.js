@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom'
 
@@ -10,7 +9,7 @@ export const TopNavComp = () => (
           <div>
             <a href="#">
               <h2>gregorytesto.com</h2>
-              <p>My name is Gregory Testo and I would like to thank you for visiting.</p>
+              <p>This is my accumulation of work.</p>
               <Link to="/">Home</Link>
             </a>
           </div>
@@ -61,6 +60,7 @@ export const TopNavComp = () => (
               <h2>Quick Starter</h2>
               <p>This is my crowdfunding page for my canvas prints, photo book and my EMICS project.</p>
               <Link to="/quickstarterpage"> Quick Starter </Link>
+              <a href="http://www.gregorytesto.com/quickstarter"> Website Link </a>
             </a>
           </div>
         </li>

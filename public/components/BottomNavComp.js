@@ -11,7 +11,7 @@ export const BottomNavComp = () => (
             <a href="#">
               <h2>About Me</h2>
               <p>My name is Gregory Testo and here is some interesting things about me.</p>
-              <Link to="/"> My Biography </Link>
+              <Link to="/biopage"> My Biography </Link>
             </a>
           </div>
         </li>
