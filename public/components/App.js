@@ -9,6 +9,7 @@ import { AboutPage } from './AboutPage';
 import { ContactPage } from './ContactPage';
 import { TopNavComp } from './TopNavComp';
 import { BottomNavComp } from './BottomNavComp';
+import { QuickstarterPage } from './QuickstarterPage';
 
 export const App = () => (
 
@@ -21,6 +22,7 @@ export const App = () => (
     <Route path="/emics" component={EmicsPage}/>
     <Route path="/about" component={AboutPage}/>
     <Route path="/contact" component={ContactPage}/>
+    <Route path="/quickstarterpage" component={QuickstarterPage}/>
     <BottomNavComp />
   </div>
 )

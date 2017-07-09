@@ -22,6 +22,9 @@ h1 {
   position: absolute;
   bottom:0;
   height: 100px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
 .accordion ul {
   width: 100%;
@@ -100,9 +103,9 @@ h1 {
   background-position: 83%;
 }
 .topAccordion ul li:nth-child(4) {
-  background-image: url("../img/canvas.jpg");
+  background-image: url("https://s-media-cache-ak0.pinimg.com/736x/a4/17/10/a417104af5c4d1e4251047e9e44a3cb8--blank-canvas-brick-walls.jpg");
   background-size: 650px;
-  background-position: 45% 100%;
+  background-position: 60% 30%;
 }
 .topAccordion ul li:nth-child(5) {
   background-image: url("http://coloradomoms.com/wp-content/uploads/Depositphotos_48733603_l-2015.jpg");
@@ -110,9 +113,9 @@ h1 {
   background-position: 60% 40%;
 }
 .topAccordion ul li:nth-child(6) {
-  background-image: url("");
+  background-image: url("https://www.fundingnote.com/wp-content/uploads/2016/07/debt-crowdfunding-2.jpg");
   background-size: 650px;
-  background-position: 50%;
+  background-position: 50% 20%;
 }
 
 .bottomAccordion ul li:nth-child(1) {

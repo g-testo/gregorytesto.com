@@ -60,7 +60,7 @@ export const TopNavComp = () => (
             <a href="#">
               <h2>Quick Starter</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-              <Link to="/contact"> Quick Starter </Link>
+              <Link to="/quickstarterpage"> Quick Starter </Link>
             </a>
           </div>
         </li>
