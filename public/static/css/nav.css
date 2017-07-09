@@ -1,0 +1,179 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  text-align: center;
+  font-family: Montserrat,sans-serif;
+  color: #333;
+}
+
+.accordion {
+  width: 100%;
+  max-width: 1080px;
+  height: 250px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.bottomAccordion{
+  position: absolute;
+  bottom:0;
+  height: 100px;
+}
+.accordion ul {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+  margin: 0;
+  padding: 0;
+}
+.accordion ul li {
+  display: table-cell;
+  vertical-align: bottom;
+  position: relative;
+  width: 16.666%;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: all 500ms ease;
+}
+.accordion ul li div {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+.accordion ul li div a[href^="#"] {
+  display: block;
+  height: 250px;
+  width: 100%;
+  position: relative;
+  z-index: 3;
+  vertical-align: bottom;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  color: #fff;
+  text-decoration: none;
+  font-family: Open Sans, sans-serif;
+  transition: all 200ms ease;
+}
+.accordion ul li div a[href^="#"] * {
+  opacity: 0;
+  margin: 0;
+  width: 100%;
+  text-overflow: ellipsis;
+  position: relative;
+  z-index: 5;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-transform: translateX(-20px);
+  transform: translateX(-20px);
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+.accordion ul li div a h2 {
+  font-family: Montserrat,sans-serif;
+  text-overflow: clip;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+  top: 160px;
+}
+.accordion ul li div a p {
+  top: 160px;
+  font-size: 13.5px;
+}
+.topAccordion ul li:nth-child(1) {
+  background-image: url("https://www.inman.com/wp-content/uploads/2015/10/PeskyMonkey_000007830761_Large.jpg");
+  background-size: 650px;
+  background-position: 77% 100%;
+}
+.topAccordion ul li:nth-child(2) {
+  background-image: url("https://blog.apaonline.org/wp-content/uploads/2016/05/technology1.jpg");
+  background-size: 650px;
+  background-position: 30% 40%;
+}
+.topAccordion ul li:nth-child(3) {
+  background-image: url("../img/nyc.jpg");
+  background-size: 650px;
+  background-position: 83%;
+}
+.topAccordion ul li:nth-child(4) {
+  background-image: url("../img/canvas.jpg");
+  background-size: 650px;
+  background-position: 45% 100%;
+}
+.topAccordion ul li:nth-child(5) {
+  background-image: url("http://coloradomoms.com/wp-content/uploads/Depositphotos_48733603_l-2015.jpg");
+  background-size: 650px;
+  background-position: 60% 40%;
+}
+.topAccordion ul li:nth-child(6) {
+  background-image: url("");
+  background-size: 650px;
+  background-position: 50%;
+}
+
+.bottomAccordion ul li:nth-child(1) {
+  background-image: url("https://www.inman.com/wp-content/uploads/2015/10/PeskyMonkey_000007830761_Large.jpg");
+  background-size: 650px;
+  background-position: 77% 100%;
+}
+.bottomAccordion ul li:nth-child(2) {
+  background-image: url("https://bucshon.house.gov/sites/bucshon.house.gov/files/slider_images/Contact-Me.jpg");
+  background-size: 650px;
+  background-position: 50% 88%;
+}
+
+.accordion ul:hover li {
+  width: 8%;
+}
+.accordion ul:hover li:hover {
+  width: 60%;
+}
+.accordion ul:hover li:hover a[href^="#"] {
+  background: rgba(0, 0, 0, 0.4);
+  cursor:default;
+}
+.accordion ul:hover li:hover a[href^="#"] * {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.accordion ul li div a[href^="#"] a, .accordion ul:hover li:hover a[href^="#"] a{
+  padding: 5px 10px;
+  background-color: rgba(250, 250, 250, 0.8);
+  border-radius: 5px;
+}
+/*@media screen and (max-width: 600px) {
+  body {
+    margin: 0;
+  }
+
+  .accordion {
+    height: auto;
+  }
+  .accordion ul li, .accordion ul li:hover, .accordion ul:hover li, .accordion ul:hover li:hover {
+    position: relative;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    -webkit-transition: none;
+    transition: none;
+  }
+}*/
+.about {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  color: #666;
+}
+.about a {
+  color: blue;
+  text-decoration: none;
+}
+.about a:hover {
+  text-decoration: underline;
+}
