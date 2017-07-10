@@ -7,61 +7,50 @@ export const TopNavComp = () => (
       <ul>
         <li>
           <div>
-            <a href="#">
+            <Link to="/">
               <h2>gregorytesto.com</h2>
               <p>This is my accumulation of work.</p>
-              <Link to="/">Home</Link>
-            </a>
+            </Link>
           </div>
         </li>
         <li>
           <div>
-            <a href="#">
-              <h2>EMICS</h2>
-              <p>Emergency Mobile Information & Communication System: A portable long range IOT device.</p>
-              <Link to="/emics"> Website Description </Link>
-              <a href="http://www.emi-cs.com"> Website Link </a>
-            </a>
+            <Link to="/emics">
+                <h2>EMICS</h2>
+                <p>Emergency Mobile Information & Communication System: A portable long range IOT device.</p>
+              </Link>
           </div>
         </li>
         <li>
           <div>
-            <a href="#">
+            <Link to="/testophotography">
               <h2>Testo Photography</h2>
               <p>This is my personal photography website. I hope you enjoy your visit.</p>
-              <Link to="/testophotography"> Testo Photography </Link>
-              <a href="http://www.testophotography.com"> Website Link </a>
-            </a>
+            </Link>
           </div>
         </li>
         <li>
           <div>
-            <a href="#">
+            <Link to="/prints">
               <h2>Canvas Prints</h2>
               <p>An ecommerce website</p>
-              <Link to="/prints"> Canvas Prints for Sale </Link>
-              <a href="http://www.testophotography.com/prints"> Website Link </a>
-            </a>
+            </Link>
           </div>
         </li>
         <li>
           <div>
-            <a href="#">
+            <Link to="/sangria">
               <h2>Sangria New York City</h2>
               <p>A community sangria recipe database.</p>
-              <Link to="/sangria"> Sangria New York City </Link>
-              <a href="http://www.sangrianewyorkcity.com"> Website Link </a>
-            </a>
+            </Link>
           </div>
         </li>
         <li>
           <div>
-            <a href="#">
+            <Link to="/quickstarterpage">
               <h2>Quick Starter</h2>
               <p>This is my crowdfunding page for my canvas prints, photo book and my EMICS project.</p>
-              <Link to="/quickstarterpage"> Quick Starter </Link>
-              <a href="http://www.gregorytesto.com/quickstarter"> Website Link </a>
-            </a>
+            </Link>
           </div>
         </li>
       </ul>
