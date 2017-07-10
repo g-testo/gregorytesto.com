@@ -9,7 +9,7 @@ export const TopNavComp = () => (
           <div>
             <Link to="/">
               <h2>gregorytesto.com</h2>
-              <p>This is my accumulation of work.</p>
+              <p>This is an accumulation of my work. Take a look around.</p>
             </Link>
           </div>
         </li>
@@ -33,7 +33,7 @@ export const TopNavComp = () => (
           <div>
             <Link to="/prints">
               <h2>Canvas Prints</h2>
-              <p>An ecommerce website</p>
+              <p>An ecommerce website selling canvas prints. Window shoppers not just accepted but encouraged.</p>
             </Link>
           </div>
         </li>
@@ -41,7 +41,7 @@ export const TopNavComp = () => (
           <div>
             <Link to="/sangria">
               <h2>Sangria New York City</h2>
-              <p>A community sangria recipe database.</p>
+              <p>A New York City community sangria recipe database.</p>
             </Link>
           </div>
         </li>
