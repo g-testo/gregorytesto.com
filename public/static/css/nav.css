@@ -1,12 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:700);
 
-h1 {
-  text-align: center;
-  font-family: Montserrat,sans-serif;
-  color: #333;
-}
-
 .accordion {
   width: 100%;
   height: 250px;
