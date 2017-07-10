@@ -5,7 +5,7 @@ export class BioPage extends React.Component {
   render() {
     return (
       <div className="indexContainer">
-        <h1>Gregory David Testo Bio</h1>
+        <h1>Who am I?</h1>
       </div>
     )
   }
