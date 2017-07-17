@@ -3,7 +3,7 @@
 
 .accordion {
   width: 100%;
-  height: 250px;
+  height: 200px;
   overflow: hidden;
 
 }
@@ -11,7 +11,7 @@
   position: absolute;
   max-width: 600px;
   bottom:0;
-  height: 190px;
+  height: 100px;
   left: 0;
   right: 0;
   margin: 0 auto;
@@ -71,29 +71,29 @@
   text-overflow: clip;
   text-transform: uppercase;
   margin-bottom: 2px;
-  top: 160px;
-}
-.bottomAccordion ul li div a h2 {
   top: 100px;
 }
+.bottomAccordion ul li div a h2 {
+  top: 20px;
+}
 .topAccordion ul li div a p {
-  top: 160px;
+  top: 100px;
   font-size: 13.5px;
 }
 .bottomAccordion ul li div a p {
-  top: 110px;
+  top: 20px;
   font-size: 13.5px;
 }
 
 .topAccordion ul li:nth-child(1) {
   background-image: url("https://www.inman.com/wp-content/uploads/2015/10/PeskyMonkey_000007830761_Large.jpg");
   background-size: 650px;
-  background-position: 77% 100%;
+  background-position: 77% 200%;
 }
 .topAccordion ul li:nth-child(2) {
   background-image: url("https://blog.apaonline.org/wp-content/uploads/2016/05/technology1.jpg");
   background-size: 650px;
-  background-position: 30% 40%;
+  background-position: 30% 60%;
 }
 .topAccordion ul li:nth-child(3) {
   background-image: url("../img/nyc.jpg");
@@ -102,7 +102,7 @@
 }
 .topAccordion ul li:nth-child(4) {
   background-image: url("https://s-media-cache-ak0.pinimg.com/736x/a4/17/10/a417104af5c4d1e4251047e9e44a3cb8--blank-canvas-brick-walls.jpg");
-  background-size: 650px;
+  background-size: 450px;
   background-position: 60% 30%;
 }
 .topAccordion ul li:nth-child(5) {
@@ -113,18 +113,18 @@
 .topAccordion ul li:nth-child(6) {
   background-image: url("https://www.fundingnote.com/wp-content/uploads/2016/07/debt-crowdfunding-2.jpg");
   background-size: 650px;
-  background-position: 50% 20%;
+  background-position: 50% 35%;
 }
 
 .bottomAccordion ul li:nth-child(1) {
   background-image: url("../img/who.jpg");
-  background-size: 650px;
+  background-size: 450px;
   background-position: 0% 0%;
 }
 .bottomAccordion ul li:nth-child(2) {
   background-image: url("https://bucshon.house.gov/sites/bucshon.house.gov/files/slider_images/Contact-Me.jpg");
-  background-size: 650px;
-  background-position: 50% 70%;
+  background-size: 550px;
+  background-position: 50% 100%;
 }
 
 .accordion ul:hover li {
