@@ -101,8 +101,8 @@
   background-position: 83%;
 }
 .topAccordion ul li:nth-child(4) {
-  background-image: url("https://s-media-cache-ak0.pinimg.com/736x/a4/17/10/a417104af5c4d1e4251047e9e44a3cb8--blank-canvas-brick-walls.jpg");
-  background-size: 450px;
+  background-image: url("../img/canvas.jpg");
+  background-size: 650px;
   background-position: 60% 30%;
 }
 .topAccordion ul li:nth-child(5) {
@@ -115,10 +115,15 @@
   background-size: 650px;
   background-position: 50% 35%;
 }
+.topAccordion ul li:nth-child(7) {
+  background-image: url("http://i.istockimg.com/file_thumbview_approve/17110863/13/stock-video-17110863-animation-moving-through-spinning-gears-and-cogs.jpg");
+  background-size: 650px;
+  background-position: 70% 35%;
+}
 
 .bottomAccordion ul li:nth-child(1) {
   background-image: url("../img/who.jpg");
-  background-size: 450px;
+  background-size: 600px;
   background-position: 0% 0%;
 }
 .bottomAccordion ul li:nth-child(2) {

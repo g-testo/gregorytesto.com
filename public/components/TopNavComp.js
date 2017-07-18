@@ -40,16 +40,25 @@ export const TopNavComp = () => (
         <li>
           <div>
             <Link to="/sangria">
-              <h2>Sangria New York City</h2>
+              <h2>Sangria NYC</h2>
               <p>A New York City community sangria recipe database.</p>
             </Link>
           </div>
         </li>
         <li>
           <div>
-            <Link to="/quickstarterpage">
+            <Link to="/quickstarter">
               <h2>Quick Starter</h2>
               <p>This is my crowdfunding page for my canvas prints, photo book and my EMICS project.</p>
+            </Link>
+          </div>
+        </li>
+        <li>
+          <div>
+            <Link to="/photobot">
+              <h2>Photo Bot</h2>
+              <p>2nd Edition Ver. 2.31</p>
+              <p>A voice activated photography web app that provides photo tips and locations.</p>
             </Link>
           </div>
         </li>
