@@ -7,7 +7,7 @@ export class IndexPage extends React.Component {
     return (
       <div className="indexContainer">
         <h1>Details of this website</h1>
-        <GithubComp />
+        <GithubComp repName="gregorytesto.com" />
       </div>
     )
   }
