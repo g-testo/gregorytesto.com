@@ -6,7 +6,8 @@ export class GithubComp extends React.Component {
       super(props);
       this.state = {
         repoData: [],
-        commits: []
+        commits: [],
+        readMe: {}
       };
     }
 
@@ -22,16 +23,20 @@ export class GithubComp extends React.Component {
         const commits = res.data
         this.setState({ commits });
     });
-  }
 
+    axios.get('https://api.github.com/repos/g-testo/' + this.props.repoName + '/readme')
+      .then(res => {
+        const readMe = res.data
+        this.setState({ readMe });
+    });
+  }
 
   render() {
     return (
-      <div className="githubContainer right">
-        <h2>{this.state.commits.length}</h2>
-        <h3>{this.state.repoData.length}</h3>
-        <h3>GitHub Modal Summary</h3>
-      </div>
+      <ul className="githubContainer right">
+        <li>Total Number of Commits: {this.state.commits.length}</li>
+        <li><a href={this.state.readMe.html_url}>Link to Read Me</a></li>
+      </ul>
     )
   };
 };

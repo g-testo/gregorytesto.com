@@ -10,12 +10,19 @@ export class IndexPage extends React.Component {
     }
   }
   render() {
+    var propObj = this.state.dataObj
     return (
       <div className="indexContainer">
-        <h1>{this.state.dataObj.name}</h1>
-        <h5>{this.state.dataObj.description}</h5>
-        <p>{this.state.dataObj.webTechUsed}</p>
-        <GithubComp repoName={this.state.dataObj.gitRepoName} />
+        <h1>{propObj.name}</h1>
+        <h5>{propObj.description}</h5>
+          <ul>
+            {propObj.webTechUsed.map( function(item){
+              return(
+                <li>{item}</li>
+              )
+            })}
+          </ul>
+        <GithubComp repoName={propObj.gitRepoName} />
       </div>
     )
   }
