@@ -80,7 +80,7 @@ export class App extends React.Component {
         {
           path: "/quickstarter",
           name: "Quick Starter",
-          gitRepoName: "quickstarter",
+          gitRepoName: "Quickstarter",
           websiteLink: "www.gregorytesto.com/quickstarter",
           description: "This is my crowdfunding page for my canvas prints, photo book and my EMICS project.",
           webTechUsed: [
