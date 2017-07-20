@@ -16,9 +16,11 @@ export class IndexPage extends React.Component {
         <h1>{propObj.name}</h1>
         <h5>{propObj.description}</h5>
           <ul>
-            {propObj.webTechUsed.map( function(item){
+            {propObj.webTechUsed.map( function(item, index){
               return(
-                <li>{item}</li>
+                <ul key={index}>
+                  <li>{item.name}</li>
+                </ul>
               )
             })}
           </ul>
