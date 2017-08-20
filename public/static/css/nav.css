@@ -94,35 +94,37 @@
   background-position: 77% 200%;
 }
 .topAccordion ul li:nth-child(2) {
-  background-image: url("https://blog.apaonline.org/wp-content/uploads/2016/05/technology1.jpg");
-  background-size: 650px;
-  background-position: 30% 60%;
-}
-.topAccordion ul li:nth-child(3) {
   background-image: url("../img/nyc.jpg");
   background-size: 650px;
   background-position: 83%;
 }
-.topAccordion ul li:nth-child(4) {
-  background-image: url("../img/canvas.jpg");
-  background-size: 650px;
-  background-position: 60% 30%;
-}
-.topAccordion ul li:nth-child(5) {
+.topAccordion ul li:nth-child(3) {
   background-image: url("http://coloradomoms.com/wp-content/uploads/Depositphotos_48733603_l-2015.jpg");
   background-size: 650px;
   background-position: 60% 40%;
 }
-.topAccordion ul li:nth-child(6) {
+/*.topAccordion ul li:nth-child(4) {
+  background-image: url("https://blog.apaonline.org/wp-content/uploads/2016/05/technology1.jpg");
+  background-size: 650px;
+  background-position: 30% 60%;
+}*/
+
+/*.topAccordion ul li:nth-child(5) {
+  background-image: url("../img/canvas.jpg");
+  background-size: 650px;
+  background-position: 60% 30%;
+}*/
+
+/*.topAccordion ul li:nth-child(6) {
   background-image: url("https://www.fundingnote.com/wp-content/uploads/2016/07/debt-crowdfunding-2.jpg");
   background-size: 650px;
   background-position: 50% 35%;
-}
-.topAccordion ul li:nth-child(7) {
+}*/
+/*.topAccordion ul li:nth-child(7) {
   background-image: url("http://i.istockimg.com/file_thumbview_approve/17110863/13/stock-video-17110863-animation-moving-through-spinning-gears-and-cogs.jpg");
   background-size: 650px;
   background-position: 70% 35%;
-}
+}*/
 
 .bottomAccordion ul li:nth-child(1) {
   background-image: url("../img/who.jpg");
