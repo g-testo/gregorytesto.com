@@ -5,7 +5,8 @@ export class BioPage extends React.Component {
   render() {
     return (
       <div className="indexContainer">
-        <h1>Who am I?</h1>
+        <h2>Who am I?</h2>
+        <p> My name is Gregory Testo and I am a Rails and JavaScript web developer. </p>
       </div>
     )
   }
