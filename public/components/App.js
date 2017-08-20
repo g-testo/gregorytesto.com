@@ -64,7 +64,7 @@ export class App extends React.Component {
             {name:"Filterrific", icon:"", url:"https://github.com/jhund/filterrific/"},
             {name:"Omniauth", icon:"devicon-facebook-plain colored", url:"https://github.com/omniauth/omniauth/"},
             {name:"Recaptcha", icon:"devicon-google-plain colored", url:"https://www.google.com/recaptcha/"},
-            {name:"public_activity", icon:"", url:"https://github.com/chaps-io/public_activity/"}
+            {name:"Public Activity", icon:"", url:"https://github.com/chaps-io/public_activity/"}
           ]
         },
         {

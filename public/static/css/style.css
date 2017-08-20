@@ -39,3 +39,6 @@ body{
 .indexContainer a{
   max-width: 200px;
 }
+.modalContainer > button{
+  cursor:pointer
+}
