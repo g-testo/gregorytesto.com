@@ -52,6 +52,19 @@ export class App extends React.Component {
             {name:"Rails", icon:"devicon-rails-plain colored", url:"http://rubyonrails.org"}
           ]
         },
+        {
+          path: "/photobot",
+          name: "Photo Bot: 2nd Edition Ver. 2.31",
+          gitRepoName: "PhotoBot",
+          websiteLink: "www.gregorytesto.com/photobot",
+          description: "A voice activated photography web app that provides photo tips and locations.",
+          webTechUsed: [
+            {name:"Rails", icon:"devicon-rails-plain colored", url:"http://rubyonrails.org"},
+            {name:"Web Audio API", icon:"", url:"https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API"},
+            {name:"Google Maps API", icon:"", url:"https://www.google.com/maps/"},
+            {name:"ResponsiveVoice.JS", icon:"", url:"https://responsivevoice.org/"}
+          ]
+        },
         // {
         //   path: "/emics",
         //   name: "EMICS",
@@ -88,19 +101,6 @@ export class App extends React.Component {
         //     {name:"Webpack", icon:"devicon-webpack-plain colored", url:"https://webpack.github.io"},
         //     {name:"Babel", icon:"devicon-babel-plain colored", url:"https://babeljs.io"},
         //     {name:"Rails", icon:"devicon-rails-plain colored", url:"http://rubyonrails.org"}
-        //   ]
-        // },
-        // {
-        //   path: "/photobot",
-        //   name: "Photo Bot: 2nd Edition Ver. 2.31",
-        //   gitRepoName: "PhotoBot",
-        //   websiteLink: "www.gregorytesto.com/photobot",
-        //   description: "A voice activated photography web app that provides photo tips and locations.",
-        //   webTechUsed: [
-        //     {name:"Rails", icon:"devicon-rails-plain colored", url:"http://rubyonrails.org"},
-        //     {name:"Web Audio API", icon:"", url:"https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API"},
-        //     {name:"Google Maps API", icon:"", url:"https://www.google.com/maps/"},
-        //     {name:"ResponsiveVoice.JS", icon:"", url:"https://responsivevoice.org/"}
         //   ]
         // }
       ]
