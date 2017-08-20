@@ -15,7 +15,7 @@ export class IndexPage extends React.Component {
       <div className="indexContainer">
         <h1>{propObj.name}</h1>
         <h5>{propObj.description}</h5>
-        {propObj.websiteLink != "n/a" ? <h5><a href={propObj.websiteLink} target="_blank">Website Link</a></h5> : ""}
+        {propObj.websiteLink != "n/a" ? <h5><button className="btn btn-primary" href={propObj.websiteLink} target="_blank">Website Link</button></h5> : ""}
 
         <div className="modalContainer">
           <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#myModal">Technologies Used</button>
