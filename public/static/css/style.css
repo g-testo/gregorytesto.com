@@ -28,3 +28,10 @@ body{
 .left{
   float: left;
 }
+.indexContainer > div{
+  display: flex;
+  flex-flow: row wrap;
+}
+.indexContainer a{
+  max-width: 200px;
+}
