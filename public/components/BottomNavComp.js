@@ -8,7 +8,7 @@ export class BottomNavComp extends React.Component {
       websiteArr: [
         {
           name: "About Me",
-          description: "My name is Gregory Testo and here is some interesting things about me.",
+          description: "My name is Gregory Testo and here are some interesting things about me.",
           link: "/biopage"
         },
         {
