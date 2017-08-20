@@ -28,6 +28,10 @@ body{
 .left{
   float: left;
 }
+.indexContainer > div > div{
+  margin: 5px auto;
+}
+
 .indexContainer > div{
   display: flex;
   flex-flow: row wrap;

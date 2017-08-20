@@ -25,6 +25,7 @@ export class App extends React.Component {
             {name:"React", icon:"devicon-react-original", url:"https://facebook.github.io/react"},
             {name:"Webpack", icon:"devicon-webpack-plain colored", url:"https://webpack.github.io"},
             {name:"Babel", icon:"devicon-babel-plain colored", url:"https://babeljs.io"},
+            {name:"Bootstrap", icon:"devicon-bootstrap-plain colored", url:"https://www.getbootstrap.com/"},
             {name:"GitHub API", icon: "devicon-github-plain", url:"https://developer.github.com/"}
           ]
         },
@@ -38,6 +39,7 @@ export class App extends React.Component {
             {name:"Node", icon:"devicon-angularjs-plain colored", url:"https://nodejs.org"},
             {name:"Express", icon:"devicon-express-original colored", url:"https://expressjs.com"},
             {name:"Angular", icon:"devicon-angularjs-plain", url:"https://angularjs.org"},
+            {name:"Bootstrap", icon:"devicon-bootstrap-plain colored", url:"http://getbootstrap.com/"},
             {name:"SwiperJS", icon:"", url:"idangero.us/swiper"},
             {name:"Sass", icon:"devicon-sass-original colored", url: "http://sass-lang.com"}
           ]
@@ -49,8 +51,20 @@ export class App extends React.Component {
           websiteLink: "http://www.sangrianewyorkcity.com",
           description: "A New York City community sangria recipe database.",
           webTechUsed: [
-            {name:"Rails", icon:"devicon-rails-plain colored", url:"http://rubyonrails.org"}
-            // -devise -bootstrap -x-editable -mailgun -AWS -carrierwave -jquery -jquery-autocomplete -SASS -omniauth-facebook -filterrific -recaptcha -public_activity -pagination
+            {name:"Rails", icon:"devicon-rails-plain colored", url:"http://rubyonrails.org"},
+            {name:"Devise", icon:"", url:"http://rubyonrails.org"},
+            {name:"Bootstrap", icon:"devicon-bootstrap-plain colored", url:"http://getbootstrap.com/"},
+            {name:"X-editable", icon:"", url:"https://vitalets.github.io/x-editable/"},
+            {name:"Mailgun", icon:"", url:"https://www.mailgun.com/"},
+            {name:"AWS", icon:"devicon-amazonwebservices-original colored", url:"https://aws.amazon.com/"},
+            {name:"Carrierwave", icon:"", url:"https://github.com/carrierwaveuploader/carrierwave"},
+            {name:"JQuery", icon:"devicon-jquery-plain colored", url:"https://jquery.com//"},
+            {name:"Autocomplete", icon:"devicon-jquery-plain colored", url:"https://jqueryui.com/autocomplete/"},
+            {name:"Sass", icon:"devicon-sass-original colored", url: "http://sass-lang.com"},
+            {name:"Filterrific", icon:"", url:"https://github.com/jhund/filterrific/"},
+            {name:"Omniauth", icon:"devicon-facebook-plain colored", url:"https://github.com/omniauth/omniauth/"},
+            {name:"Recaptcha", icon:"devicon-google-plain colored", url:"https://www.google.com/recaptcha/"},
+            {name:"public_activity", icon:"", url:"https://github.com/chaps-io/public_activity/"}
           ]
         },
         {
@@ -61,7 +75,7 @@ export class App extends React.Component {
           description: "A voice activated photography web app that provides photo tips and locations.",
           webTechUsed: [
             {name:"Rails", icon:"devicon-rails-plain colored", url:"http://rubyonrails.org"},
-            {name:"Web Audio API", icon:"", url:"https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API"},
+            {name:"Web Audio API", icon:"devicon-html5-plain colored", url:"https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API"},
             {name:"Google Maps API", icon:"devicon-google-plain colored", url:"https://www.google.com/maps/"},
             {name:"ResponsiveVoice.JS", icon:"", url:"https://responsivevoice.org/"}
           ]

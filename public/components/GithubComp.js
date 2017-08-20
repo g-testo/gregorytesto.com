@@ -38,7 +38,7 @@ export class GithubComp extends React.Component {
     return (
       <ul className="githubContainer right">
         <li>Total Number of Commits: {this.state.totalCommits}</li>
-        <li><a target="_blank" href={this.state.readMe.html_url}>Link to Read Me</a></li>
+        <li><a target="_blank" href={this.state.readMe.html_url}>Readme</a></li>
       </ul>
     )
   };
